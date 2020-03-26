@@ -29,3 +29,10 @@ public void llenaDesde(Jarra j){
 public String toString(){
     return ("("+this.capacidad+","+this.cantidad+")");
 }
+
+public bool llena(){
+return this.cantidad=this.capacidad;
+}
+public bool vacia(){
+return this.cantidad=0;
+}
