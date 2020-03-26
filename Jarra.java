@@ -8,6 +8,12 @@ throw new RuntimeException("ERROR: no se pueden crear jarras “ +
 }
 this.capacidad=capacidadInicial;
 }
+public int capacidad(){
+return this.capacidad;
+}
+public int cantidad(){
+return this.cantidad;
+}
 // Aquí vendrán después los métodos creados en la siguiente fase
 public void metodoComunitario(){
 // Comentario incluido para pruebas
